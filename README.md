@@ -1,3 +1,26 @@
+### 작업예정 : jQuery 제이쿼리 JSON 데이터 파싱
+-외부 data.js 파일에서 json데이터를 저장한후 html에서 불러와서 파상
+-외부 사이트에서 제공하는(restapi서버) json데이터를 html에서 불러와 파상
+-RestAPI서버 중 코로나19 확진자데이터를 받아서 html에서 파싱(데이터를 분해해서 화면에 뿌려주는 작업)
+-RestAPI서버주소(빅데이터) : https://coroname.me/getdata
+
+### 20210513(목) 작업내역
+-픽사베이 이미지 3개 : 로고1, 슬라이드 이미지1, Noimage 1 받고, 경로 적어두기
+-로고 : https://pixabay.com/ko/illustrations/bmw-%EB%A1%9C%EA%B3%A0-%EC%9E%90%EB%8F%99%EC%B0%A8-1596080/
+-슬라이드 이미지 : https://pixabay.com/ko/photos/%EC%8A%A4%ED%8B%B0%EC%96%B4%EB%A7%81-%ED%9C%A0-%EC%9E%90%EB%8F%99%EC%B0%A8-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-1031498/
+-No_Image : https://pixabay.com/ko/illustrations/%EC%B9%B4%EB%A9%94%EB%9D%BC-%EC%95%84%EC%9D%B4%EC%BD%98-%EA%B0%84%EB%8B%A8%ED%95%9C-6116360/
+-작업폴더를 나누는 이유: 시청(관공서),대학, 기업의 웹프로그램(사이트) 제작할떄
+1년간 무상 유지보수 이후 보통 2천, 리뉴얼 4천 비용이 책정
+-home폴더 기존작업물, 리뉴얼 home에 덮어쓰는 방식이 아니고,
+-리뉴얼 할때 home2022 폴더에 작업을 하시게 됩니다
+-제이쿼리 코어 다운받기: min버전(압축-속도UP),일반버전(개발-속도Normal)
+-jQuery 미처리 작업은 다음주하고,
+-오늘부터는 모바일 메인페이지 1개가 만들어서 과제물로 제출 -> 스프링에서
+프로그램 일하는 소스로 사용하게 됩니다
+-팀뷰어 대신 애니데스크 사용
+-html5.html,css.html,js.html 여기까지
+-jQuery 기본구조만 실습했습니다
+
 ### 20210512(수) 작업내역
 - 작업기록
 
