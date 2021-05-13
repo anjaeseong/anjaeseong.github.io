@@ -4,6 +4,11 @@
 -RestAPI서버 중 코로나19 확진자데이터를 받아서 html에서 파싱(데이터를 분해해서 화면에 뿌려주는 작업)
 -RestAPI서버주소(빅데이터) : https://coroname.me/getdata
 
+### 20210414(금) 작업예정
+-사용차단 모바일 메인페이지 footer영역 CSS입히기
+-과제물 제출준비
+-메인페이지에 자바스크립트(jQuery)적용,-메뉴, 슬라이드이미지 처리, top상단이동
+
 ### 20210513(목) 작업내역
 -픽사베이 이미지 3개 : 로고1, 슬라이드 이미지1, Noimage 1 받고, 경로 적어두기
 -로고 : https://pixabay.com/ko/illustrations/bmw-%EB%A1%9C%EA%B3%A0-%EC%9E%90%EB%8F%99%EC%B0%A8-1596080/
@@ -22,7 +27,12 @@
 -jQuery 기본구조만 실습했습니다
 
 ### 20210512(수) 작업내역
-- 작업기록
+-git clone 으로 프로젝트를 가져온 경우 아래 내용을 추가해 주셔야합니다.
+-git config --list 확인에서 user.name, user.email 없으면 아래추가.
+-터미널에서 아래 2가지 실행
+-git config --local user.name 영문이름
+-git config --local user.email 영문이메일
+-프로젝트를 1명 제작하는 경우 없기때문에, 2명일때 소스수정한 사람 확인용 정보 입니다.
 
 ### 20210511(화) 작업내역
 -로렘입숨 한글 URL http://guny.kr/stuff/klorem/#/table-html
