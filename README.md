@@ -11,11 +11,25 @@
 -OPEN JDK 8버전(egov와 100%호환됨) 사용함
 -톰캣 : 이클립스에서 원프로그램 결과를 확인하는 라이브 서버 입니다.(localhost:8080)
 -라이브서버(아파치) :VS code 에서 HTML 결과를 확인하는 라이브서버.(localhost:5500)
+-JRE  java Runtime Environment(자바실행환경) 자바앱을 실행할때만 사용
+-JDK설치 : 개발하고,실행할때
+-점심후 웹프로젝트1개(헬로월드) 생성play후 지우고
+-스프링프로젝트1개(헬로자바)-test 폴더에서 자바기초를 실습
+-자바에 익숙해진 후 위 스프링프로젝트를 이용해서
+-VS code에서 만든 UI를 jsp로 변경한 후 스프링웹프로젝트를 진행합니다
+
+### 20210521(금) 작업예정
+-반응형 모바일 게시판페이지(CRUD) CSS 처리 : Create(Update) = board_write.html
+-반응형 서브페이지(로그인, 회원가입, 마이페이지)
+-이클립스 헬로월드 실습
 
 ### 20210520(목) 작업
 -메인페이지 시간이 걸리는 부분(프런트엔드): 메뉴처리, 슬라이딩처리
 -메인페이지 시간이 걸리는 부분(백엔드): 최근갤러리, 공지사항 DB데이터를 출력하는 부분
--모바일 게시판페이지(CRUD) CSS 처리
+-모바일 게시판페이지(CRUD) CSS 처리 : Read(list,view페이지)
+-Read리스트형식 board_list.html 예,회원리스트(회원목록)
+-Map형식 ,json형식(key1:value,key2:value,key3:value...) :board_view.html(회원상세보기)
+-상세보기 페이지 댓글 디자인은 부트스트랩 디자인시 추가 할 예정
 -카멜표기법(낙타등표기법 예, bbsListTbl), 표기법(예, .bbs_title)
 -href헤르프: hypertext referance (웹문서 참조)
 -정적(static) 콘텐츠 : html, css, js
