@@ -18,8 +18,13 @@
 -자바에 익숙해진 후 위 스프링프로젝트를 이용해서
 -VS code에서 만든 UI를 jsp로 변경한 후 스프링웹프로젝트를 진행합니다
 
-### 20210521(금) 작업예정
+### 20210521(금) 작업
 -반응형 모바일 게시판페이지(CRUD) CSS 처리 : Create(Update) = board_write.html
+-글쓰기폼(부트스트랩 적용): 첨부파일부문, 내용입력부분 웹에디터 추가
+-부트스트랩(Admin LTE) : 제이쿼리 기반의 UI 템플릿(프레임워크)
+-AdminLTE: dist(디스트리뷰트=배포), pages(더미데이터), plugins(서머노트등등)
+-대시보드파일샘플 : index.html, index2.html, index3.html
+-board_write.html 파일에 bootstrap코어임포트 + 서머노트플러그인 임포트
 -반응형 서브페이지(로그인, 회원가입, 마이페이지)
 -이클립스 헬로월드 실습
 
