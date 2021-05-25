@@ -19,6 +19,7 @@
 -VS code에서 만든 UI를 jsp로 변경한 후 스프링웹프로젝트를 진행합니다
 
 ### 20210525(화) 작업
+-css: 계층:조부 > 부 > 본인(timeline) > 자식(collapse) > 손자(time-label) > 증손자
 -board_view.html 댓글 AdminLTE3의 페이징 UI 추가예정.
 -반응형 서브페이지들(로그인, 회원가입, 마이페이지).
 -관리자단 AdminLTE적용.(회원관리CRUD, 게시판CRUD, 대시보드)
