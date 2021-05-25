@@ -187,7 +187,7 @@ $(document).ready(function() {
 							</div>
 						  </div>
 						  <div id="information-part" class="content" role="tabpanel" aria-labelledby="information-part-trigger">
-							<button type="submit" class="btn btn-warning" id="btn_reply_write" data-toggle="collapse" data-target="#collapseReply">댓글등록</button>
+							<button type="submit" class="btn btn-warning" id="btn_reply_write">댓글등록</button>
 						  </div>
 						</div>
 					  </div>
@@ -210,6 +210,7 @@ $(document).ready(function() {
 				  	[<span>1</span>]
 				</span>
 				</div>
+				<!-- 콜랩스 시작 -->
 				<div class="collapse timeline" id="collapseReply">
 				<!-- time-label 이후 after요소로 템플릿 결과가 여기에 출력됨 -->
 				<!-- /.timeline-label -->
@@ -368,8 +369,9 @@ var printReplyList = function(data, templateData, target) {
 				url:'./board_view.html', // RestAPI URL 입력
 				dataType:'text',
 				success:function(result) {
-					// alert('RestAPI성공');
+					alert('댓글 등록 성공');
 					result = [
+						{rno:3,bno:2,reply_text:'세번째 댓글입니다.',replyer:'관리자',reg_data:1601234512345},
 						{rno:2,bno:2,reply_text:'두번째 댓글입니다.',replyer:'관리자',reg_data:1601234512345},
 						{rno:1,bno:2,reply_text:'첫번째 댓글입니다.',replyer:'관리자',reg_data:1601234512345}
 					];
