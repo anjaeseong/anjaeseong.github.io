@@ -317,7 +317,7 @@ input::placeholder {
 }
 .app_content input {
 	border: none;
-	width: inherit; /*부모 영역(브라우저기본값)의 input태그의 너비값을 상속받음=width 값을 초기화 한다*/
+	/* width: inherit; 부모 영역(브라우저기본값)의 input태그의 너비값을 상속받음=width 값을 초기화 한다 */
 	box-sizing: border-box;
 	display: inline-block;
 	height: 45px;
